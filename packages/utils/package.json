@@ -1,0 +1,35 @@
+{
+  "name": "@targeek/utils",
+  "version": "1.0.0-alpha.0",
+  "description": "Common utilities for Targeek's projects",
+  "keywords": [
+    "utilities",
+    "typescript"
+  ],
+  "author": "Dương Đỗ <dustin.do95@gmail.com>",
+  "homepage": "https://github.com/targeek/typescript-lerna-cra-expo-apollo-template#readme",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/targeek/typescript-lerna-cra-expo-apollo-template.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "pre-publish-npm": "yarn build",
+    "publish-npm": "npm publish --access public"
+  },
+  "bugs": {
+    "url": "https://github.com/targeek/typescript-lerna-cra-expo-apollo-template/issues"
+  },
+  "devDependencies": {
+    "@types/node": "12.0.10",
+    "typescript": "3.5.2"
+  }
+}
