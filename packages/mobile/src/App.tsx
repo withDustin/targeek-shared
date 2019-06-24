@@ -1,11 +1,16 @@
 import React from 'react'
+
 import { StyleSheet, Text, View } from 'react-native'
+import { ThemeProvider } from 'styled-components/native'
+import theme from './theme'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
+    <ThemeProvider theme={theme}>
+      <View style={styles.container}>
+        <Text>Open up App.tsx to start working on your app!</Text>
+      </View>
+    </ThemeProvider>
   )
 }
 

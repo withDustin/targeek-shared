@@ -6,9 +6,6 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "baseUrl": "src",
-    "paths": {
-      "*": ["./src/*", "node_modules/*", "../../node_modules/*"]
-    }
+    "baseUrl": "src"
   }
 }
