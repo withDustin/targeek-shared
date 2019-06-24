@@ -1,0 +1,30 @@
+{
+  "name": "@targeek/tslint-config",
+  "version": "0.0.0",
+  "description": "TSLint configuration for Targeek's projects",
+  "keywords": [
+    "tslint",
+    "typescript",
+    "targeek"
+  ],
+  "author": "Dương Đỗ <dustin.do95@gmail.com>",
+  "homepage": "https://github.com/targeek/typescript-lerna-cra-expo-apollo-template#readme",
+  "license": "ISC",
+  "main": "tslint.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/targeek/typescript-lerna-cra-expo-apollo-template.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "tslint-config-airbnb": "5.11.1"
+  },
+  "peerDependencies": {
+    "tslint": "5.18.0"
+  },
+  "bugs": {
+    "url": "https://github.com/targeek/typescript-lerna-cra-expo-apollo-template/issues"
+  }
+}
