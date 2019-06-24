@@ -19,7 +19,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "tslint-config-airbnb": "5.11.1"
+    "tslint-config-airbnb": "5.11.1",
+    "tslint-config-prettier": "1.18.0"
   },
   "peerDependencies": {
     "tslint": "5.18.0"
