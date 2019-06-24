@@ -16,7 +16,7 @@
     "url": "git+https://github.com/targeek/typescript-lerna-cra-expo-apollo-template.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "publish-npm": "npm publish --access public"
   },
   "dependencies": {
     "tslint-config-airbnb": "5.11.1",
