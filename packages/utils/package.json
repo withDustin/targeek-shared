@@ -29,7 +29,7 @@
     "url": "https://github.com/targeek/typescript-lerna-cra-expo-apollo-template/issues"
   },
   "devDependencies": {
-    "@types/node": "12.6.2",
+    "@types/node": "12.6.8",
     "typescript": "3.5.3"
   }
 }
