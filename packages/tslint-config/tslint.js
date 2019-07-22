@@ -20,10 +20,6 @@ module.exports = {
     },
     'import-name': false,
     align: false,
-    'object-curly-spacing': {
-      severity: 'warn',
-    },
-    'ter-arrow-parens': [true, 'always'],
     'max-line-length': false,
   },
 }
