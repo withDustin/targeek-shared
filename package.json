@@ -7,7 +7,7 @@
     "reinstall": "yarn clean && yarn install"
   },
   "devDependencies": {
-    "lerna": "3.16.1",
+    "lerna": "3.16.4",
     "prettier": "1.18.2",
     "tslint": "5.18.0",
     "typescript": "3.5.3"
