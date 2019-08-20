@@ -23,7 +23,7 @@
     "tslint-config-prettier": "1.18.0"
   },
   "peerDependencies": {
-    "tslint": "5.18.0"
+    "tslint": "5.19.0"
   },
   "bugs": {
     "url": "https://github.com/targeek/typescript-lerna-cra-expo-apollo-template/issues"
