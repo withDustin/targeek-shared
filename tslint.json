@@ -1,0 +1,3 @@
+{
+  "extends": "@targeek/tslint-config"
+}

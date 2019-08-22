@@ -1,0 +1,37 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "34.0.1",
+    "react": "16.8.3",
+    "react-dom": "16.8.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+    "react-native-web": "0.11.4",
+    "react-navigation": "3.11.1"
+  },
+  "devDependencies": {
+    "@targeek/prettierrc": "1.0.0-alpha.0",
+    "@targeek/tslint-config": "1.0.0-beta.0",
+    "@types/react": "16.8.23",
+    "@types/react-native": "0.57.65",
+    "babel-plugin-module-resolver": "3.2.0",
+    "babel-preset-expo": "6.0.0",
+    "husky": "3.0.4",
+    "prettier": "1.18.2",
+    "pretty-quick": "1.11.1",
+    "tslint": "5.19.0",
+    "typescript": "3.4.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "private": true
+}
