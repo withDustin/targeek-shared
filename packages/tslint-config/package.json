@@ -1,0 +1,31 @@
+{
+  "name": "@targeek/tslint-config",
+  "version": "0.0.0",
+  "description": "TSLint configuration for Targeek's projects",
+  "keywords": [
+    "tslint",
+    "typescript",
+    "targeek"
+  ],
+  "author": "Dương Đỗ <dustin.do95@gmail.com>",
+  "homepage": "https://github.com/targeek/targeek-shared#readme",
+  "license": "MIT",
+  "main": "tslint.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/targeek/targeek-shared.git"
+  },
+  "scripts": {
+    "publish-npm": "npm publish --access public"
+  },
+  "dependencies": {
+    "tslint-config-airbnb": "5.11.1",
+    "tslint-config-prettier": "1.18.0"
+  },
+  "peerDependencies": {
+    "tslint": "6.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/targeek/targeek-shared/issues"
+  }
+}

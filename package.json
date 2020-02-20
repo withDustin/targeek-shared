@@ -1,0 +1,10 @@
+{
+  "name": "targeek-shared",
+  "description": "Coding convension for Targeek's projects",
+  "private": true,
+  "license": "MIT",
+  "workspaces": ["packages/*"],
+  "devDependencies": {
+    "lerna": "3.18.3"
+  }
+}

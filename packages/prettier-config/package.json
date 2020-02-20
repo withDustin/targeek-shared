@@ -1,0 +1,29 @@
+{
+  "name": "@targeek/prettierrc",
+  "version": "0.0.0",
+  "description": "Prettier configuration for Targeek's projects",
+  "keywords": [
+    "prettier",
+    "targeek"
+  ],
+  "author": "Dương Đỗ <dustin.do95@gmail.com>",
+  "homepage": "https://github.com/targeek/typescript-lerna-cra-expo-apollo-template#readme",
+  "license": "ISC",
+  "main": "prettier.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/targeek/typescript-lerna-cra-expo-apollo-template.git"
+  },
+  "scripts": {
+    "publish-npm": "npm publish --access public"
+  },
+  "bugs": {
+    "url": "https://github.com/targeek/typescript-lerna-cra-expo-apollo-template/issues"
+  },
+  "peerDependencies": {
+    "prettier": "1.18.2"
+  },
+  "devDependencies": {
+    "prettier": "1.18.2"
+  }
+}
