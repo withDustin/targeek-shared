@@ -6,6 +6,7 @@ module.exports = {
     path.join(path.dirname(require.resolve("tslint-config-prettier")), "./")
   ],
   rules: {
+    deprecation: true,
     semicolon: false,
     "trailing-comma": false,
     eofline: false,
